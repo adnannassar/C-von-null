@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.20)
+project(C_Von_Null_Praktikum C)
+
+set(CMAKE_C_STANDARD 99)
+
+
+add_executable(C_Von_Null_Praktikum Praktikum_001_Grundlagen/main.c)
+add_executable(Praktikum_002_Doseberechung_main Praktikum_002_Doseberechung/main.c Praktikum_002_Doseberechung/dose.c Praktikum_002_Doseberechung/dose.h)
+add_executable(Praktikum_003_Array_Tools_main Praktikum_003_Array_Tools/main.c Praktikum_003_Array_Tools/arrayTools.c Praktikum_003_Array_Tools/arrayTools.h)
